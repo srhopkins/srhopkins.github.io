@@ -1,6 +1,7 @@
 ---
 layout: page
 title: whoami
+tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
