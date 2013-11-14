@@ -1,6 +1,5 @@
 ---
 layout: page
-title: whoami
 ---
 {% include JB/setup %}
 
