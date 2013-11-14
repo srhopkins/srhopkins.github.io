@@ -4,6 +4,8 @@ title: whoami
 ---
 {% include JB/setup %}
 
+I work and live in Systems * (Administration, Engineering, and Architecture). I'm always looking for new technologies and interesting solutions to problems.
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
