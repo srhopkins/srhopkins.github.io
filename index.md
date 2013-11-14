@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "whats new"
+title: "what's new"
 ---
 {% include JB/setup %}
 
