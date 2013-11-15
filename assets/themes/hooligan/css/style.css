@@ -410,10 +410,63 @@ div.sidebar section img.icon {
   border-radius: 5px;
 }
 
-/* Better styles for embedding GitHub Gists */
-.gist div, .gist table, .gist td, .gist th{background-color: #2a2a2a !important}
-.gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
-.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
-.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important}
-.gist-meta a{color:#26a !important;text-decoration:none}
-.gist-meta a:hover{color:#0e4071 !important}
+.gist div, .gist th, .gist td {background-color:rgba(0, 0, 0, 0.3) !important}
+.gist .hll { background-color: #49483e !important }
+.gist .c { color: #75715e !important } /* Comment */
+.gist .err { color: #960050; background-color: #1e0010 !important } /* Error */
+.gist .k { color: #66d9ef !important } /* Keyword */
+.gist .l { color: #ae81ff !important } /* Literal */
+.gist .n { color: #f8f8f2 !important } /* Name */
+.gist .o { color: #f92672 !important } /* Operator */
+.gist .p { color: #f8f8f2 !important } /* Punctuation */
+.gist .cm { color: #75715e !important } /* Comment.Multiline */
+.gist .cp { color: #75715e !important } /* Comment.Preproc */
+.gist .c1 { color: #75715e !important } /* Comment.Single */
+.gist .cs { color: #75715e !important } /* Comment.Special */
+.gist .ge { font-style: italic !important } /* Generic.Emph */
+.gist .gs { font-weight: bold !important } /* Generic.Strong */
+.gist .kc { color: #66d9ef !important } /* Keyword.Constant */
+.gist .kd { color: #66d9ef !important } /* Keyword.Declaration */
+.gist .kn { color: #f92672 !important } /* Keyword.Namespace */
+.gist .kp { color: #66d9ef !important } /* Keyword.Pseudo */
+.gist .kr { color: #66d9ef !important } /* Keyword.Reserved */
+.gist .kt { color: #66d9ef !important } /* Keyword.Type */
+.gist .ld { color: #e6db74 !important } /* Literal.Date */
+.gist .m { color: #ae81ff !important } /* Literal.Number */
+.gist .s { color: #e6db74 !important } /* Literal.String */
+.gist .na { color: #a6e22e !important } /* Name.Attribute */
+.gist .nb { color: #f8f8f2 !important } /* Name.Builtin */
+.gist .nc { color: #a6e22e !important } /* Name.Class */
+.gist .no { color: #66d9ef !important } /* Name.Constant */
+.gist .nd { color: #a6e22e !important } /* Name.Decorator */
+.gist .ni { color: #f8f8f2 !important } /* Name.Entity */
+.gist .ne { color: #a6e22e !important } /* Name.Exception */
+.gist .nf { color: #a6e22e !important } /* Name.Function */
+.gist .nl { color: #f8f8f2 !important } /* Name.Label */
+.gist .nn { color: #f8f8f2 !important } /* Name.Namespace */
+.gist .nx { color: #a6e22e !important } /* Name.Other */
+.gist .py { color: #f8f8f2 !important } /* Name.Property */
+.gist .nt { color: #f92672 !important } /* Name.Tag */
+.gist .nv { color: #f8f8f2 !important } /* Name.Variable */
+.gist .ow { color: #f92672 !important } /* Operator.Word */
+.gist .w { color: #f8f8f2 !important } /* Text.Whitespace */
+.gist .mf { color: #ae81ff !important } /* Literal.Number.Float */
+.gist .mh { color: #ae81ff !important } /* Literal.Number.Hex */
+.gist .mi { color: #ae81ff !important } /* Literal.Number.Integer */
+.gist .mo { color: #ae81ff !important } /* Literal.Number.Oct */
+.gist .sb { color: #e6db74 !important } /* Literal.String.Backtick */
+.gist .sc { color: #e6db74 !important } /* Literal.String.Char */
+.gist .sd { color: #e6db74 !important } /* Literal.String.Doc */
+.gist .s2 { color: #e6db74 !important } /* Literal.String.Double */
+.gist .se { color: #ae81ff !important } /* Literal.String.Escape */
+.gist .sh { color: #e6db74 !important } /* Literal.String.Heredoc */
+.gist .si { color: #e6db74 !important } /* Literal.String.Interpol */
+.gist .sx { color: #e6db74 !important } /* Literal.String.Other */
+.gist .sr { color: #e6db74 !important } /* Literal.String.Regex */
+.gist .s1 { color: #e6db74 !important } /* Literal.String.Single */
+.gist .ss { color: #e6db74 !important } /* Literal.String.Symbol */
+.gist .bp { color: #f8f8f2 !important } /* Name.Builtin.Pseudo */
+.gist .vc { color: #f8f8f2 !important } /* Name.Variable.Class */
+.gist .vg { color: #f8f8f2 !important } /* Name.Variable.Global */
+.gist .vi { color: #f8f8f2 !important } /* Name.Variable.Instance */
+.gist .il { color: #ae81ff !important } /* Literal.Number.Integer.Long */
