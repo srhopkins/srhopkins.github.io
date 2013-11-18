@@ -3,7 +3,7 @@ layout: post
 title: "Learning Git with GitHub"
 description: ""
 category: ""
-tags: []
+tags: ["git", "github", "hub"]
 ---
 {% include JB/setup %}
 
