@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            'srhopkins'
 tagline:          'whoami'
-description:      'I love solving problems and I am continuously tweaking my solutions for conciseness, functionality, and the cool factor.'
+description:      'I love solving problems; continuously tweaking my solutions for conciseness, functionality, and that cool factor.'
 url:              http://srhopkins.com
 baseurl:          /
 
