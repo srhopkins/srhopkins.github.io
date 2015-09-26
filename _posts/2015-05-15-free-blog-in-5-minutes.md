@@ -1,3 +1,8 @@
+---
+layout: post
+title: Free Blog in 5 Minutes
+---
+
 There are several good blogs on getting started with blogging on GitHub Pages. I am hoping to get your blog operational in 5 minutes, minus searching for your theme.
 
  - Find a good jekyll theme, I suggest <a href="https://github.com/poole/poole">poole</a>. Another good place to start your search is <a href="http://jekyllthemes.org/">here</a>.
