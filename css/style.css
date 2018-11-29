@@ -18,9 +18,9 @@ body {
 
 a {
   text-decoration: none;
-  color: #bbb; }
+  color: #00ade0; }
   a:hover {
-    color: #c8c8c8; }
+    color: #00c1fa; }
 
 #mainContainer {
   display: -webkit-box;
@@ -104,36 +104,21 @@ a {
           -ms-flex-wrap: wrap;
               flex-wrap: wrap; }
           #mainContainer #mainContentBlock #mainContent #introBox #linkBox li {
-            margin: 5px;
-            border-radius: 15px;
+            margin-right: 10px;
             display: inline; }
-            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li .link-icon {
-              background-color: #bbb;
-              padding: 6px 4px;
-              box-shadow: 0px 1px 3px #333333;
-              border-radius: 50%; }
-              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li .link-icon:hover {
-                background-color: #c8c8c8; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li .link-icon:hover {
+              color: #00c1fa; }
             #mainContainer #mainContentBlock #mainContent #introBox #linkBox li a .description {
               display: none;
               font-size: 0.8em; }
-            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured {
-              border: 1px solid #bbb;
-              padding-right: 15px;
-              box-shadow: 0px 1px 3px #333333; }
-              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured .link-icon {
-                box-shadow: none; }
-              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured:hover {
-                border-color: #c8c8c8;
-                background-color: #c8c8c8; }
-                #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured:hover .link-icon {
-                  background-color: #c8c8c8; }
-              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured a .description {
-                color: #777;
-                padding-left: 5px;
-                padding-right: 2px; }
-              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured .description {
-                display: inline; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured a .description {
+              color: #aaa;
+              padding-left: 5px;
+              padding-right: 2px; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured a .description:hover {
+                color: #00c1fa; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured .description {
+              display: inline; }
       #mainContainer #mainContentBlock #mainContent #fullBioBox {
         padding: 20px 40px; }
 
@@ -142,6 +127,6 @@ div.footer {
   font-size: 0.8em;
   text-shadow: 0px 1px 3px #333333; }
 
-//#avatarImageBlock {
-//  -webkit-filter: grayscale(100%);
-//          filter: grayscale(100%); }
+#avatarImageBlock {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); }
